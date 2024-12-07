@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -79,4 +79,4 @@ private static void createAccount(Scanner scanner) {
         userDatabase.add(new User(newUsername, newPassword));
         System.out.println("Account created successfully!");
     }
-}
+}*/
