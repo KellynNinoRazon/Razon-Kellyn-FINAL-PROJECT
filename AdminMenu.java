@@ -95,12 +95,12 @@ public class AdminMenu
         List<TimeEntry> employeeEntries = userManager.getEmployeeTimeEntries(employeeUsername);
         if (employeeEntries == null || employeeEntries.isEmpty()) 
         {
-            System.out.println("No records found for employee " + employeeUsername);
+            System.out.println("No records found for " + employeeUsername);
         } 
         else 
         {
             double totalSalary = 0.0;
-            System.out.println("Employee: " + employeeUsername + "'s Records:");
+            System.out.println(employeeUsername + "'s Records:");
             for (TimeEntry entry : employeeEntries) 
             {
                 double salary = entry.getHoursWorked() * userManager.getHourlyRate(employeeUsername);

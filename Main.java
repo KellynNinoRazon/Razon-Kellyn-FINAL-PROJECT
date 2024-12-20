@@ -14,7 +14,7 @@ public class Main
 
         while (!exit) 
         {
-            System.out.println("------ Menu ------\n1. Log in as Employee.\n2. Log in as Admin.\n3. End program\n\nEnter your choice (1/2/3):");
+            System.out.println("'Welcome to Salary ExpectanSee'\n------ Menu ------\n1. Log in as Employee.\n2. Log in as Admin.\n3. End program\n\nEnter your choice (1/2/3):");
             String role = scanner.nextLine();
 
             if (role.equals("2")) 
